@@ -160,13 +160,25 @@ align-items: center;
 }
 
 /* characteristics-section2 */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .container-benefits {
-    padding-bottom: 120px;
-    padding-top: 120px;
     gap: 24px;
 }
+.section-pad {
+    padding: 120px 0;
+}
 .benefits {
-    background-color: aquamarine;
     display: flex;
 }
 .benefits-item {
