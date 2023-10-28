@@ -212,15 +212,16 @@ column-gap: 24px;
 .our-team-section {
     background-color: #F4F4FD;
 }
-
-.section-title {
+.photo-workers .name-text {
+    text-align: center;
+}
+.section-title{
     color: #2E2F42;
     font-size: 36px;
     letter-spacing: 0.02em;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-    margin-bottom: 72px;
 }
 .our-portfolio-photo {
     display: flex;
