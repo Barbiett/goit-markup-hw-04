@@ -68,8 +68,10 @@ align-items: center;
 }
 .menu-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .accent {
@@ -148,15 +150,22 @@ align-items: center;
 }
 
 /* characteristics-section2 */
+.container-benefits {
+    padding-bottom: 120px;
+    padding-top: 120px;
+    gap: 24px;
+}
 .benefits {
     background-color: aquamarine;
 display: flex;
 }
 .benefits-item {
+width: calc((100% - 72px) / 4);
 width: 264px;
 column-gap: 24px;
 }
 .characteristics-name {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
