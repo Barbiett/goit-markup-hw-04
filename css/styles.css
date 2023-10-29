@@ -38,6 +38,8 @@ box-sizing: border-box;
 width: 1158px;
 margin-left: auto;
 margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
 }
 /* header */
 .page-header-container {
@@ -149,7 +151,7 @@ align-items: center;
     font-size: 16px;
     line-height: 1.5;
     cursor: pointer;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     margin: 0 auto;
     border-radius: 4px;
@@ -188,7 +190,6 @@ align-items: center;
 .benefits-item {
 width: calc((100% - 72px) / 4);
 width: 264px;
-column-gap: 24px;
 }
 .characteristics-name {
     margin-bottom: 8px;
@@ -230,9 +231,16 @@ column-gap: 24px;
 .our-portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .our-portfolio-list .list-item {
     width: calc((100% - 48px) / 3);
+}
+.application-category {
+    padding: 32px 16px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border-top: none;
 }
 .photo-workers {
     display: flex;
@@ -244,6 +252,7 @@ column-gap: 24px;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4)
 }
 
 
