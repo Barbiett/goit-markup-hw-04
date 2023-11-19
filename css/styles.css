@@ -95,6 +95,7 @@ align-items: center;
     letter-spacing: 0.02em;
     padding-top: 24px;
     padding-bottom: 24px;
+    transition: color 500ms ease-out
 
 }
 
@@ -108,6 +109,7 @@ align-items: center;
 }
 
 .contacts-link {
+    transition: color 500ms ease-out;
     text-decoration: none;
     color: #434455;
     font-size: 16px;
@@ -118,17 +120,26 @@ align-items: center;
 .contacts-link:hover,
 .contacts-link:focus {
     color: #404BBF
+
 }
 
 /* hero-section1 */
 .hero-container {
   text-align: center;
 
+
 }
 
 .hero-section {
+    background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+     rgba(46, 47, 66, 0.7)),
+      url("../images/hero-photo.jpg");
     background-color: #2E2F42;
     padding: 188px 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
 
 }
 .hero-text {
@@ -178,6 +189,7 @@ align-items: center;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 .container-benefits {
     gap: 24px;
 }
@@ -191,6 +203,19 @@ align-items: center;
 .benefits-item {
 width: calc((100% - 72px) / 4);
 width: 264px;
+}
+.icons-second-section {
+display: flex;
+background-color: #F4F4FD;
+width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+    margin-bottom: 8px;
+    border-radius: 4px;
+        border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+}
+.icon {
+margin: auto;
 }
 .characteristics-name {
     margin-bottom: 8px;
@@ -216,6 +241,13 @@ width: 264px;
 }
 .our-team-section {
     background-color: #F4F4FD;
+}
+.soucial-links {
+display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 8px;
 }
 .photo-workers .name-text {
     text-align: center;
@@ -263,7 +295,6 @@ width: 264px;
     background-color: #2E2F42;
     font-size: 18px;
     font-weight: 700;
-    text-transform: uppercase;
     color: #4d5ae5;
     letter-spacing: 0.03em;
     line-height: 1.17;
@@ -286,6 +317,7 @@ width: 264px;
     font-style: normal;
     font-weight: 700;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     line-height: 1.17;
     margin-bottom: 16px;
     display: inline-block;
