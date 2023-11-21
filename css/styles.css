@@ -88,6 +88,7 @@ align-items: center;
 }
 .current {
     position: relative;
+    color: #404bbf;
 }
 .current::after {
     position: absolute;
